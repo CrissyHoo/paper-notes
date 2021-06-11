@@ -128,5 +128,7 @@ future work：We further argue that the IQA metric for SISR should also be updat
 
 #### 复现
 
+对bicubic插值的解释：[图像处理（一）bicubic解释推导_llin-黎辰-CSDN博客_bicubic](https://blog.csdn.net/qq_24451605/article/details/49474113)
 
+[全网最详细 Bicubic Interpolation 中文解释以及 python 实现 - 简书 (jianshu.com)](https://www.jianshu.com/p/055706fd32ee)
 
