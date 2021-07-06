@@ -1,4 +1,4 @@
-# numpy中的一些函数
+# 一些函数
 
 ```python
 np.random.normal(0,noise_level,img.shape)
@@ -39,3 +39,22 @@ x=np.zeros((3,7))
 
 点乘在这里提一下，点乘就是两个大小相同的矩阵对应元素直接相乘。矩阵乘法就是矩阵乘法。
 
+------
+
+np.logspace(start, stop, num)
+
+在start到stop的领域之间均匀的生成num个数
+
+------
+
+normalize函数 这个是torchvision包里的一个函数
+
+通过mean和std deviation对tensor image进行标准化
+
+归一化的具体作用是归纳统一样本的统计 分布性。归一化在0-1之间是统计的概率分布，归一化在某个区间上是统计的坐标分布。
+
+统一了一个“评价标准”
+
+[【pytorch】图像基本操作 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/27382990)
+
+可以看里面的归一化的部分，还比较直观
